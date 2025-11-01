@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+.animate-marque{
+    animation: marque 25s linear infinite;
+}
+
+@keyframes marque {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}

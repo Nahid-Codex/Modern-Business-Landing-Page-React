@@ -1,4 +1,5 @@
 import "./App.css";
+import CompanyLogo from "./Components/CompanyLogo";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 
@@ -10,6 +11,7 @@ function App() {
         <div>
           <Navbar />
           <Hero />
+          <CompanyLogo/>
         </div>
       </main>
     </>
