@@ -1,4 +1,9 @@
 @import "tailwindcss";
+@plugin "daisyui"{
+
+    themes: light --default;
+}
+
 
 .animate-marque{
     animation: marque 25s linear infinite;
