@@ -32,7 +32,7 @@ const FutureSection = () => {
     },
   ];
   return (
-    <div className="container mx-auto  px-4  py-16 md:py-24 flex flex-col md:flex-row justify-between items-center ">
+    <div id="service" className="container mx-auto  px-4  py-16 md:py-24 flex flex-col md:flex-row justify-between items-center ">
       <div className="space-y-5 ">
         <h3 className="text-4xl font-bold w-4/5">Future of support with new shape</h3>
         <p className="text-lg text-gray-600 w-4/5">

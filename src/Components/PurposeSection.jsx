@@ -2,7 +2,7 @@ import React from "react";
 
 const PurposeSection = () => {
   return (
-    <div className="bg-gray-50 py-16 px-4 sm:px-6 md:px-8">
+    <div id="about" className="bg-gray-50 py-16 px-4 sm:px-6 md:px-8">
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 grid-cols-1 gap-8">
         <div>
           <p className="font-medium text-purple-600 text-sm mb-2">
