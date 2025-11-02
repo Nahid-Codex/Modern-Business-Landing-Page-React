@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./Components/About";
 import CompanyLogo from "./Components/CompanyLogo";
+import Footer from "./Components/Footer";
 import FutureSection from "./Components/FutureSection";
 import Hero from "./Components/Hero";
 import Monitor from "./Components/Monitor";
@@ -22,6 +23,7 @@ function App() {
           <ScheduleSection/>
           <Monitor/>
           <FutureSection/>
+          <Footer/>
         </div>
       </main>
     </>
