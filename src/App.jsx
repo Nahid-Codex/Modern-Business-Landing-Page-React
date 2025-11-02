@@ -2,8 +2,10 @@ import "./App.css";
 import About from "./Components/About";
 import CompanyLogo from "./Components/CompanyLogo";
 import Hero from "./Components/Hero";
+import Monitor from "./Components/Monitor";
 import Navbar from "./Components/Navbar";
 import PurposeSection from "./Components/PurposeSection";
+import ScheduleSection from "./Components/ScheduleSection";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <CompanyLogo/>
           <PurposeSection/>
           <About/>
+          <ScheduleSection/>
+          <Monitor/>
         </div>
       </main>
     </>

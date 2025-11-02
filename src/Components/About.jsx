@@ -9,7 +9,7 @@ const About = () => {
           When you resell besnik, you build trust and increase
         </p>
       </div>
-      <div className=" grid grid-cols-3 gap-20 ">
+      <div className=" grid md:grid-cols-3 grid-cols-1 gap-20 ">
         <div className="flex flex-col items-center P-6">
           <div className="w-24 h-24 bg-[#f1eff0] rounded-full justify-center items-center flex mb-6">
             <div className="text-3xl">🔍</div>
